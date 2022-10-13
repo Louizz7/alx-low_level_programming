@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
@@ -16,7 +16,7 @@ int main(void)
 	printf("size of a char: %lu byte(s)\n", (unsigned long)sizeof(chartype));
 	printf("size of a int: %lu byte(s)\n", (unsigned long)sizeof(integertype));
 	printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(longtype));
-	printf("size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(longlongtype));
-	printf("size of a float: %lu byte(s)\n", (unsigned long)sizeof(floattype));
+	printf("size of a long long int: %lu byte(s)\n", (unsignedlong)sizeof(longlongtype));
+	printf("size of a float: %lu byte(s)\n", (unsignedlong)sizeof(floattype));
 	return (0);
 }
