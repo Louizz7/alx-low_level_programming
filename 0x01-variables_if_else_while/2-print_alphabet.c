@@ -10,10 +10,10 @@
 int main(void)
 {
 	char low;
-	for (low = 'a' ; low = <= 'z'; low++)
+	for (low = 'a' ; low <= 'z'; low++)
 
 		putchar(low);
 		printf("\n");
 
-	return (0)
+	return (0);
 }
