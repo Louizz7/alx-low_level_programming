@@ -12,7 +12,7 @@ int main(void)
 {
 	int a;
 
-	for (a = 0; d < 100; d++)
+	for (a = 0; a < 100; d++)
 	{
 		putchar((a / 10) + '0');
 		putchar((a % 10) + '0');
@@ -22,7 +22,7 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	putchar('\n')
+	putchar('\n');
 
 		return (0);
 }
