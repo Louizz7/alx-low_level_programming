@@ -11,9 +11,12 @@
 int main(void)
 {
 	int n;
+	int L;
+	char string[] = "Last digit of";
 
 	srand(time (0));
 	n = rand() - RAND_MAX / 2;
+	L = n % 10;
 
 	if (n > 0)
 		printf("%d is positive\n", n);
