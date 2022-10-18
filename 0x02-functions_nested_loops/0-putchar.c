@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /** main - Program that  prints _putchar
  *
@@ -8,13 +9,15 @@
 
 int main (void)
 {
-	char *sh = "ALX";
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 
-	while (*sh)
-	{
-		_putchar (*sh);
-		sh++;
-	}
 	_putchar("\n");
 
 	return (0);
