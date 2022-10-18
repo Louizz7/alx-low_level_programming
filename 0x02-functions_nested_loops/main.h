@@ -1,7 +1,12 @@
+#ifndef Main_h
+#define Main_h
+
+
+
 /**
- * main.h
- *
- *
+ * File - main.h
+ * Author - Louis Mbagwu
+ * Description: Header contains prototypes for all functions
  */
 
 void print_alphabet(void);
@@ -29,3 +34,5 @@ int _abs(int);
 int add(int n, int m);
 
 int print_last_digit(int n);
+
+#endif
