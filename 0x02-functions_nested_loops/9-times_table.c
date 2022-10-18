@@ -19,7 +19,7 @@ void times_table(void)
 
 		for (n = 1; n <= 9; n++)
 		{
-			d = (j * n);
+			x = (j * n);
 
 			if((d / 10) > 0)
 			{
@@ -31,7 +31,7 @@ void times_table(void)
 			}
 			_putchar((d % 10) + '0');
 
-			if (cone < 9)
+			if (n < 9)
 			{
 			_putchar (',');
 			_putchar (' ');
