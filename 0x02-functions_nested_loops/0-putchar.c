@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /** main - Program that  prints _putchar
@@ -7,7 +5,7 @@
  * Return: Always 0 (success)
  */
 
-int main (void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -17,8 +15,7 @@ int main (void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-
-	_putchar("\n");
+	_putchar('\n');
 
 	return (0);
 }
