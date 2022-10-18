@@ -2,7 +2,7 @@
 
 /**
  *_islowe - function that checks for lowercase character
- *
+ *c: character argument
  * Return: Always 0
  */
 
