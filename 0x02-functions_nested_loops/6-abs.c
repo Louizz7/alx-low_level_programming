@@ -3,12 +3,12 @@
 /**
  * _abs - function that computes the absolute value of an integer.
  *@n: a parameter
- * Return: Always 0
+ * Return: absolute value 
  */
 
 int _abs(int n)
 {
-	if (n > 0)
+	if (n < 0)
 		n = -n;
 			return (n);
 }
