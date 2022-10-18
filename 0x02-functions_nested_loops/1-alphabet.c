@@ -9,11 +9,11 @@
 void print_alphabet(void)
 
 {
-	char ch = 'a';
+	int alpha;
 
-	for (ch = 'a'; ch <= 'z'; ch++);
+	for (alpha = 'a'; alpha <= 'z'; alpha++);
 	{
-		_putchar(ch);
+		_putchar(alpha);
 	}
 	_putchar('\n');
 
