@@ -2,6 +2,7 @@
 
 /**
  * times_table - function that prints the 9 times table, starting with 0.
+ * j = row, n = column, x = result
  * Remove: Always 0
  */
 
