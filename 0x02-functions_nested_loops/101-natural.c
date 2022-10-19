@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - program that computes and prints the sum of all the multiples of 3 or 5
- *@sum: multiples of 3 or 5
+ *@sum: integer multiples
  * Return: Always 0
  */
 
