@@ -3,8 +3,8 @@
 
 /**
  *add - adds two integrers and returns the result
- *a: first number input
- *b: second number input
+ *@a: first number input
+ *@b: second number input
  *Return: a + b
  */
 
