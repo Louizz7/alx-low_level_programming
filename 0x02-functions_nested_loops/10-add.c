@@ -3,12 +3,12 @@
 
 /**
  *main - function that adds two integers and returns the result.
- *j: first input number
- *k: second input number 
- *Return: sum
+ *a: first number input
+ *b: second number input
+ *Return: a + b
  */
 
-int add(int j, int k)
+int add(int a, int b)
 {
-	return (j + k);
+	return (a + b);
 }
