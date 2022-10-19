@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *main - function that adds two integers and returns the result.
+ *add - adds two integrers and returns the result
  *a: first number input
  *b: second number input
  *Return: a + b
