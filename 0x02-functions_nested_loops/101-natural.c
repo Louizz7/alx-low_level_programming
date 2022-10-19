@@ -1,20 +1,20 @@
 #include "main.h"
 /**
  * main - program that computes and prints the sum of all the multiples of 3 or 5
+ *@sum: multiples of 3 or 5
  * Return: Always 0
  */
 
 int main(void)
 {
-	int a = 1024;
-	int b;
+	int a;
 	sum = 0;
 
-	for (b = '0'; b > a; b++)
+	for (a = '0'; a < '1024'; a++)
 	{
-		if ((b % 3 == 0) || (b % 5 == 0))
+		if ((a % 3) == 0 || (a % 5) == 0)
 		{
-			sum = sum + y;
+			sum =+ a;
 		}
 	}
 	prinf("%d\n", sum);
