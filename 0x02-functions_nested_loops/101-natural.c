@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - program that computes and prints the sum of all the multiples of 3 or 5
+ * main - prints the sum of all the multiples of 3 or 5
  *
  * Return: Always 0
  */
@@ -14,9 +14,11 @@ int main(void)
 	{
 		if ((a % 3) == 0 || (a % 5) == 0)
 		{
-			sum =+ a;
+			sum += a;
 		}
 	}
+
 	printf("%d\n", sum);
+
 	return (0);
 }
