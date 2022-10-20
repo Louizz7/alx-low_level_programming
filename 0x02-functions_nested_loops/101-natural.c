@@ -1,14 +1,13 @@
 #include "main.h"
 /**
  * main - program that computes and prints the sum of all the multiples of 3 or 5
- *@sum: integer multiples
+ *
  * Return: Always 0
  */
 
 int main(void)
 {
-	int a;
-	sum = 0;
+	int a, sum = 0;
 
 	for (a = '0'; a < '1024'; a++)
 	{
