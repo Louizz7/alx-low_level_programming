@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	int n;
+	int x;
 	unsigned long  f1 = 0, f2 = 1, sum;
 
-	for (n = 0; n < 50; n++)
+	for (x = 0; x < 50; x++)
 	{
 		sum = f1 + f2;
 		printf("%lu", sum);
@@ -19,10 +19,11 @@ int main(void)
 		f1 = f2;
 		f2 = sum;
 
-		if (n == 49)
+		if (x == 49)
 			printf("\n");
 		else
 			printf(",");
 	}
+
 	return (0);
 }
