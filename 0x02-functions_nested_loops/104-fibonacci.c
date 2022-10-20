@@ -14,17 +14,17 @@ int main(void)
 
 	for (x = 0, x < 98, x++)
 	{
-		sum = f1 +f2;
-		printf("%lu", sum)
+		sum = f1 + f2;
+		printf("%lu", sum);
 
 		f1 = f2;
 		f2 = sum;
 
 		if (x == 97)
-			printf("\n")
+			printf("\n");
 
 		else 
-			printf(",")
+			printf(",");
 	}
 
 	return (0);
