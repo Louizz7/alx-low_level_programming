@@ -23,7 +23,7 @@ int main(void)
 		if (x == 97)
 			printf("\n");
 
-		else 
+		else
 			printf(",");
 	}
 
