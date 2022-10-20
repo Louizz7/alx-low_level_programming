@@ -7,7 +7,7 @@
  * Return: Always 0.
  */
 
-int main(void);
+int main(void)
 {
 	int x;
 	unsigned long f1 = 0, f2 = 1, sum;
