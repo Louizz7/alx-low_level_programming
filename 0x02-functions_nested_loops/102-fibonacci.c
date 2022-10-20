@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	int n=count;
-	unsigned long  fib1 = 0; fib2 = 1; sum = 0;
+	int n='count';
+	unsigned long  fib1 = 0, fib2 = 1, sum = 0;
 
 	for (n = 0; n < 50; n++)
 	{
