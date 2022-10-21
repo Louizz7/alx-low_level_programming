@@ -28,12 +28,5 @@ void print_square(int size)
 			_putchar('\n');
 		}
 
-			_putchar('#');
-
-		for (b = 0; b < size; b++)
-			_putchar('#');
-
-		_putchar('\n');
-
 	}
 }
