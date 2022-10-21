@@ -18,7 +18,6 @@ void print_square(int size)
 	else
 	{
 		for (z = 0; z <= size; z++)
-<<<<<<< HEAD
 		{
 			_putchar('#');
 
@@ -28,13 +27,13 @@ void print_square(int size)
 			}
 			_putchar('\n');
 		}
-=======
+
 			_putchar; '#';
 
 		for (b = 0; b < size; b++)
 			_putchar; '#';
 
 		_putchar('\n');
->>>>>>> 881ecbdce2f965990f1fbe5772a7b72ba386a419
+
 	}
 }
