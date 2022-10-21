@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Write a program that prints the numbers from 1 to 100, followed by a new line. 
- * But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. 
- * For numbers which are multiples of both three and five print FizzBuzz.
+ * main - Write a program that prints the numbers from 1 to 100.
+ * But For numbers which are multiples of both three and five print FizzBuzz.
  * Return: Always 0.
  */
 
@@ -25,12 +24,12 @@ int main(void)
 		else if ((n % 5) == 0)
 
 			printf("Buzz");
-		else									
+		else
 			printf("%d", n);
 
-		if (n == 100)									
+		if (n == 100)
 			continue;
-		
+
 		printf(" ");
 	}
 	printf("\n");
