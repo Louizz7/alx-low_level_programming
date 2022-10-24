@@ -16,5 +16,5 @@ void swap_int(int *i, int *j)
 	*i = *j;
 	*j = tmp;
 
-	return (0);
+	return(0);
 }
