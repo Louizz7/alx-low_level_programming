@@ -13,10 +13,10 @@ void print_rev(char *s)
 {
 	int i, l;
 
-	s = "Reverse";
+	s = "Holberton!";
 	l = strlen(s);
 
-	for (i = l - 1; i >= 0; i--)
+	for (i = l-1; i >= 0; i--)
 	{
 		putchar(s[i]);
 	}
