@@ -13,8 +13,8 @@ void print_rev(char *s)
 {
 	int i, len;
 
+	s = "Reverse"
 	len = strlen(s);
-	s = "Reverse";
 
 	for (i = len - 1; i >= 0; i--)
 	{
