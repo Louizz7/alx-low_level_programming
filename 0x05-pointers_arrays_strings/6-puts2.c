@@ -5,9 +5,9 @@
  *
  * @str: The string containing characters.
  *
- *   */
+ */
 
- void puts2(char *str)
+void puts2(char *str)
 
 {
 	int i = 0, len = 0;
