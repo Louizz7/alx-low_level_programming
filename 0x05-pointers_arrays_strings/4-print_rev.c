@@ -8,13 +8,14 @@
 
 void print_rev(char *s)
 {
-	int i, l;
+	int len = 0, i;
 
-	s = "Reverse";
-	l = strlen(s);
+	while (s[len] != '\0')
+		len++;
 	
-	for (i = l - 1; i >= 0; i--)
+	for (i = len - 1; i >= 0; i--)
 	{
 		putchar(s[i]);
 	}
+	putchar('\n');
 }
