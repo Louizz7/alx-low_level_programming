@@ -1,6 +1,17 @@
 #include "main.h"
 
 /**
+ * is_prime_number - returns true if the number is prime
+ * @n: the number to check
+ * Return: true if the number is prime
+ */
+
+int is_prime_number(int n)
+{
+	return (is_prime(n, 1));
+}
+
+/**
  * is_prime - checks if an input number is a prime number.
  * @n: input number.
  * @c: iterator.
@@ -17,17 +28,4 @@ int is_prime(int n, int c)
 	if ((n / c) < c)
 		return (1);
 	return (is_prime(n, c + 1));
-}
-
-/**
- * is_prime_number - returns true if the number is prime
- * @n: the number to check
- * Return: true if the number is prime
- */
-
-int is_prime_number(int n)
-
-{
-	return (is_prime(n, 1));
-
 }
