@@ -28,15 +28,6 @@ int is_prime(int n, int c)
 int is_prime_number(int n)
 
 {
-	if (n == 0)
-		return (0);
-
-	if (n < 0)
-		return (0);
-
-	if (n == 1)
-		return (0);
-
-	return (is_prime(n, 2));
+	return (is_prime(n, 1));
 
 }
