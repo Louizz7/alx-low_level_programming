@@ -7,7 +7,6 @@
  * @ptr: pointer to the memory previously allocated
  * @old_size: old size in bytes of memory allocated space
  * @new_size: new size in bytes of memory to be allocated
- * @min: minimum size in byte of memory allocated
  * Return: void pointer to new memory location
  */
 
