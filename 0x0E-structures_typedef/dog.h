@@ -5,11 +5,10 @@
 #include <stdlib.h>
 
 /**
- * struct dog - a new type of data
- * representing a dog
+ * struct dog - type of data representing a dog
  * @name: name of dog
  * @age: age of dog
- * @owner: owner's name
+ * @owner: dog owner's name
  */
 
 struct dog
@@ -24,7 +23,9 @@ struct dog
 
 };
 
-//dog_t - Typedef for struct dog
+/**
+ * dog_t - Typedef for struct dog
+ */
 
 typedef struct dog dog_t;
 
@@ -39,5 +40,6 @@ void free_dog(dog_t *d);
 int _strlen(char *str);
 
 char *_strcopy(char *dest, char *src);
+
 
 #endif /*DOG_H*/
