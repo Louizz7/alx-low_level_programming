@@ -1,10 +1,14 @@
 #include "lists.h"
-void myFunction(void) __attribute__ ((constructor));
+#include <stdio.h>
+
+void __attribute__ ((constructor)) myFunction(void);
+
 /**
- * myFunctiom - executes before main.
+ * myFunction - executes before main.
  * @void: input.
  * Return: Nothing
  */
+
 void myFunction(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
