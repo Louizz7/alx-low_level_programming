@@ -1,0 +1,68 @@
+#include "lists.h"
+
+/**
+ * free_listp - frees a linked list
+ * @head: head of a list.
+ * Return: no return.
+ */
+void free_listp(listp_t **head)
+{
+	listp_t *i;
+	listp_t *j;
+
+	if (head != NULL)
+	{
+		j = *head;
+		while ((i = j) != NULL)
+		{
+			j = j->next;
+			free(i);
+		}
+		*head = NULL;
+	}
+}
+
+/**
+ * print_listint_safe - prints a linked list.
+ * @head: head of a list.
+ *
+ * Return: number of nodes in the list.
+ */
+size_t print_listint_safe(const listint_t *head)
+{
+	size_t nnodes = 0;
+	listp_t *A, *B, *C;
+
+	A = NULL;
+	while (head != NULL)
+	{
+		B = malloc(sizeof(listp_t));
+
+		if (B == NULL)
+			exit(98);
+
+		B->p = (void *)head;
+		B->next = A;
+		A = B;
+
+		C = A;
+
+		while (C->next != NULL)
+		{
+			C = C->next;
+			if (head == add->p)
+			{
+				printf("-> [%p] %d\n", (void *)head, head->n);
+				free_listp(&A);
+				return (nnodes);
+			}
+		}
+
+		printf("[%p] %d\n", (void *)head, head->n);
+		head = head->next;
+		nnodes++;
+	}
+
+	free_listp(&A);
+	return (nnodes);
+}
