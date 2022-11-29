@@ -4,17 +4,17 @@
  * print_listint - prints all the elements of a list.
  * @h: head of a list.
  *
- * Return: numbers of nodes.
+ * Return: Always 0.
  */
 size_t print_listint(const listint_t *h)
 {
-	int nnodes = 0;
+	int i = 0;
 
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);
 		h = h->next;
-		nnodes++;
+		i++;
 	}
-	return (nnodes);
+	return (i);
 }
